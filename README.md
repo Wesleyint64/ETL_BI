@@ -22,6 +22,7 @@ Este repositório contém um projeto de **ETL (Extract, Transform, Load)** desen
 ### Arquivos
 - **docker-compose.yaml**: Configuração do ambiente Docker para rodar o Apache Airflow.
 - **.gitignore**: Lista de arquivos e diretórios ignorados pelo Git.
+- **Extração_dados.xlxs**: Arquivo com a extração dos dados de database (primeiro desenvolvimento)
 
 ---
 
