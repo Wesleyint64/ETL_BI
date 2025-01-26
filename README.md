@@ -10,14 +10,15 @@ Este repositório contém um projeto de **ETL (Extract, Transform, Load)** desen
 ### Diretórios
 - **dags/**: Contém os scripts principais do Apache Airflow para os pipelines de ETL.
   - `etl_pipeline_entrega.py`: Pipeline principal de ETL.
-  - `doc.py` e `doc2.py`: Scripts auxiliares ou documentações adicionais.
 - **dags/database/**: Arquivos de dados de exemplo usados nos pipelines.
   - `registros_oportunidades.json`: Dados em formato JSON.
   - `sellout.parquet`: Dados em formato Parquet.
 - **dags/sql/**: Scripts SQL para manipulação ou criação de tabelas.
   - `create_tables.sql`: Scripts para criar as tabelas necessárias no banco de dados.
+- **ETL_BI**: Arquivos explicativos do conteúdo .
   - `Relatorio_Explicativo_ETL.pdf`: Relatório explicando as etapas do processo de ETL.
   - `Relatorio_Orquestracao_Airflow_Docker.pdf`: Relatório detalhando a configuração do Airflow com Docker e as instruções de execução.
+  - **ETL_BI**: Scripts SQL para manipulação ou criação de tabelas.
 
 ### Arquivos
 - **docker-compose.yaml**: Configuração do ambiente Docker para rodar o Apache Airflow.
