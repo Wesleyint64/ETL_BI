@@ -16,10 +16,13 @@ Este repositório contém um projeto de **ETL (Extract, Transform, Load)** desen
   - `sellout.parquet`: Dados em formato Parquet.
 - **dags/sql/**: Scripts SQL para manipulação ou criação de tabelas.
   - `create_tables.sql`: Scripts para criar as tabelas necessárias no banco de dados.
+  - `EXECUCAO_DO DAG_DE_ETL_ARIFLOW.docx`: Arquivo fornecendo as instruções para a configuração e execução de um DAG de ETL utilizando o Apache Airflow. 
+  - `Relatorio_Explicativo_do_ETL_Airflow`: Arquivo descrevendo oesenvolvimento de um pipeline de ETL (Extract, Transform, Load) utilizando o orquestrador Apache Airflow.
 
 ### Arquivos
 - **docker-compose.yaml**: Configuração do ambiente Docker para rodar o Apache Airflow.
 - **.gitignore**: Lista de arquivos e diretórios ignorados pelo Git.
+- **Extração_dados.xlxs**: Arquivo com a extração dos dados de database (primeiro desenvolvimento)
 
 ---
 
