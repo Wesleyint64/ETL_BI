@@ -18,7 +18,7 @@ Este repositório contém um projeto de **ETL (Extract, Transform, Load)** desen
 - **ETL_BI**: Arquivos explicativos do conteúdo .
   - `Relatorio_Explicativo_ETL.pdf`: Relatório explicando as etapas do processo de ETL.
   - `Relatorio_Orquestracao_Airflow_Docker.pdf`: Relatório detalhando a configuração do Airflow com Docker e as instruções de execução.
-  - **ETL_BI**: Scripts SQL para manipulação ou criação de tabelas.
+  - **ETL_BI/SQL/create_tables.sql**: Scripts SQL para manipulação ou criação de tabelas.
 
 ### Arquivos
 - **docker-compose.yaml**: Configuração do ambiente Docker para rodar o Apache Airflow.
