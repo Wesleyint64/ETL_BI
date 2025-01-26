@@ -1,0 +1,28 @@
+# Ignorar diretório de logs do Airflow
+logs/
+
+# Ignorar arquivos compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar arquivos temporários e logs
+*.log
+*.tmp
+
+# Ignorar diretórios de cache e backups
+.cache/
+*.bak
+*.swp
+*.swo
+
+# Ignorar configurações específicas do editor
+.vscode/
+.idea/
+
+# Ignorar diretórios específicos do Airflow
+dags/__pycache__/
+
+# Ignorar arquivos gerados por sistemas operacionais
+.DS_Store
+Thumbs.db
